@@ -18,5 +18,8 @@ A placeholder and notes about checking projects for moving from maven 3.x to mav
 </plugin>
 ```
 ### Site plugin
-site:3.12.1:attach-descriptor 
 `[Parameter 'localRepository' is deprecated core expression; Avoid use of ArtifactRepository type.`
+
+for 
+* site:3.12.1:attach-descriptor 
+* checkstyle:3.2.1:checkstyle
