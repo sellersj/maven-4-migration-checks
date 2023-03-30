@@ -1,0 +1,1 @@
+# maven-4-migration-checks
