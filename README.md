@@ -23,3 +23,37 @@ A placeholder and notes about checking projects for moving from maven 3.x to mav
 for 
 * site:3.12.1:attach-descriptor 
 * checkstyle:3.2.1:checkstyle
+
+### Dependencies found an issue with
+These are either MNG-7752 or MNG-7733
+```
+Found org.apache.abdera:abdera-extensions-json:jar:0.4.0-incubating is http issue: true pom version: true
+Found org.apache.abdera:abdera-extensions-main:jar:0.4.0-incubating is http issue: true pom version: true
+Found org.apache.abdera:abdera-parser:jar:0.4.0-incubating is http issue: true pom version: true
+Found org.apache.httpcomponents:httpmime:jar:4.0.3 is http issue: false pom version: true
+Found org.apache.neethi:neethi:jar:2.0.4 is http issue: true pom version: true
+Found org.apache.tiles:tiles-core:jar:2.2.2 is http issue: true pom version: true
+Found org.apache.tiles:tiles-jsp:jar:2.2.2 is http issue: false pom version: true
+Found org.apache.tiles:tiles-servlet:jar:2.2.2 is http issue: false pom version: true
+Found org.apache.tiles:tiles-template:jar:2.2.2 is http issue: false pom version: true
+Found org.apache.ws.commons.axiom:axiom-impl:jar:1.2.5 is http issue: true pom version: true
+Found org.springframework.security:spring-security-core:jar:2.0.8.RELEASE is http issue: true pom version: true
+Found org.springframework.webflow:spring-js:jar:2.3.4.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-context-support:jar:4.2.9.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-context-support:jar:4.3.14.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-context-support:jar:4.3.2.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-context-support:jar:4.3.25.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-context-support:jar:4.3.30.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-context-support:jar:4.3.9.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-webmvc:jar:3.2.14.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:3.2.17.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:3.2.18.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:3.2.3.RELEASE is http issue: true pom version: false
+Found org.springframework:spring-webmvc:jar:3.2.9.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:4.1.6.RELEASE is http issue: false pom version: true
+Found org.springframework:spring-webmvc:jar:4.2.9.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:4.3.14.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:4.3.2.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:4.3.25.RELEASE is http issue: true pom version: true
+Found org.springframework:spring-webmvc:jar:4.3.30.RELEASE is http issue: true pom version: true
+```
