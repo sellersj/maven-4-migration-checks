@@ -6,7 +6,7 @@ A placeholder and notes about checking projects for moving from maven 3.x to mav
 * many warnings are now errors and will fail the build. e.g. "duplicate declaration of version". Need to clean projects up first
 * if a maven profile does not exist, it will fail the build
 * [MNG-7752](https://issues.apache.org/jira/browse/MNG-7752) for a weird transitive issue
-* any time a resource has a pom that has http as a repo it will fail. Need to see if we can mirror all http to the https mirror of everything we already have in place
+* any time a resource has a pom that has http as a repo it will fail. Need to see if we can mirror all http to the https mirror of everything we already have in place. [MNG-7733](https://issues.apache.org/jira/browse/MNG-7733)
 
 ## Needs more investigation
 ### Copy plugin
