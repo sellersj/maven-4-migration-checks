@@ -17,7 +17,8 @@ A placeholder and notes about checking projects for moving from maven 3.x to mav
   <version>1.0.1</version>
 </plugin>
 ```
-### Site plugin
+### localRepository is deprecated
+See [MNG-7706](https://issues.apache.org/jira/browse/MNG-7706)
 `[Parameter 'localRepository' is deprecated core expression; Avoid use of ArtifactRepository type.`
 
 for 
